@@ -1,9 +1,9 @@
 # Worker_World
 ## Requirements
-1) Java 
-2)Android Application Development
-3)Firebase knowledge
-4)Quick Sort Algorithm 
+1) Java \
+2)Android Application Development \
+3)Firebase knowledge \
+4)Quick Sort Algorithm \
 
 ## Abstract
  Generally it is difficult to find workers in present days .for example a software employ needs a carpenter for his home he had no time to search for best carpenter in his surroundings

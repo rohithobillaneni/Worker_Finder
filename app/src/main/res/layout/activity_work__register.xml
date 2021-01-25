@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Work_Register">
+
+    <TextView
+        android:id="@+id/locshow"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textColor="#4285F4"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+    <AutoCompleteTextView
+        android:id="@+id/workname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:completionThreshold="1"
+        android:ems="10"
+        android:hint="Work Name Ex:plumber"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cost"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/workname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="Ex:100/day,1000/work"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/mobileno"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="Mobile No"
+        android:inputType="number|phone" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:id="@+id/location"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/mobileno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/location_btn"
+        android:onClick="getLocation"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="34dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:onClick="getLocation"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/location" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:onClick="getLocation"
+            android:paddingLeft="10dp"
+            android:text="Choose Location"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/locshow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/register_btn"
+        android:onClick="register"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

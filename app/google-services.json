@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "25424915890",
+    "firebase_url": "https://workerworld-3481c.firebaseio.com",
+    "project_id": "workerworld-3481c",
+    "storage_bucket": "workerworld-3481c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25424915890:android:31731d88dd8800202108ab",
+        "android_client_info": {
+          "package_name": "com.example.worker_world"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25424915890-4sfd1irpv8eqimv8edoafhgm3d46cel2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.worker_world",
+            "certificate_hash": "1b42b46cccdf4cebb9eefd85f82ceaf96a5065e8"
+          }
+        },
+        {
+          "client_id": "25424915890-dmb1pm95id4beia69iapgnbsm8be36ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHyBUc_zypxD3jqvDkT4LNnrxSXi8qxxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25424915890-dmb1pm95id4beia69iapgnbsm8be36ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
